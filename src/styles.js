@@ -62,4 +62,20 @@ let box = {
   padding: 5,
 }
 
-export { hbar, vbar, cell, fixedCell, box }
+const axisLine= toD3Style({
+  fill: 'none',
+  stroke: '#000',
+  shapeRendering: 'crispEdges',
+})
+
+const axisText= toD3Style({
+  font: '10px sans-serif',
+})
+
+const axisGridLine= toD3Style({
+  stroke: 'black',
+  shapeRendering: 'crispEdges',
+  strokeOpacity: '.2',
+})
+
+export { hbar, vbar, cell, fixedCell, box, axisLine, axisText, axisGridLine }
