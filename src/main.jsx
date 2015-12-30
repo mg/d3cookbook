@@ -11,6 +11,7 @@ const links= [
   { to: '/ch3', label: 'Ch3' },
   { to: '/ch4', label: 'Ch4' },
   { to: '/ch5', label: 'Ch5' },
+  { to: '/ch6', label: 'Ch6' },
 ]
 
 const Menu= ({locale, setLocale}) =>
