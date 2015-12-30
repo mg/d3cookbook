@@ -1,4 +1,5 @@
 import React from 'react'
+import CustomTicks from './customticks.jsx'
 import BasicAxes from './basicaxes.jsx'
 
 export default class All extends React.Component {
@@ -6,6 +7,7 @@ export default class All extends React.Component {
     return (
       <div>
         <h1>Chapter 5</h1>
+        <CustomTicks/>
         <BasicAxes/>
       </div>
     )
