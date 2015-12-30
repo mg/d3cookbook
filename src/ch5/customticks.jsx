@@ -3,7 +3,7 @@ import ReactFauxDOM from 'react-faux-dom'
 import d3 from 'd3'
 import { axisLine } from '../styles'
 
-export default class BasicAsex  extends React.Component {
+export default class CustomTicks  extends React.Component {
   render() {
     const height= 100,
           width= 500,

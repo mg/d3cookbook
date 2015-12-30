@@ -72,10 +72,10 @@ const axisText= toD3Style({
   font: '10px sans-serif',
 })
 
-const axisGridLine= toD3Style({
+const gridLine= toD3Style({
   stroke: 'black',
   shapeRendering: 'crispEdges',
   strokeOpacity: '.2',
 })
 
-export { hbar, vbar, cell, fixedCell, box, axisLine, axisText, axisGridLine }
+export { hbar, vbar, cell, fixedCell, box, axisLine, axisText, gridLine }
